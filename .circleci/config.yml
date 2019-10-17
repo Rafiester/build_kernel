@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  Building-Kernel:
+  build:
     docker:
       - image: najahi/oven:latest
     steps:
