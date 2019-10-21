@@ -17,7 +17,7 @@
 #
 # git clone --depth=1 -b eas-q https://github.com/zxc070/kernel_xiaomi_lavender .
 
-wget --output-document=.circle-clang-lavender.sh https://raw.githubusercontent.com/Nicklas373/Semaphore-CI/semaphore-setup/circle-clang-lavender.sh
+wget --output-document=.circle-clang-mido.sh https://raw.githubusercontent.com/Nicklas373/Semaphore-CI/semaphore-setup/circle-clang-mido.sh
 
-chmod +x .circle-clang-lavender.sh
-bash ./.circle-clang-lavender.sh
+chmod +x .circle-clang-mido.sh
+bash ./.circle-clang-mido.sh
