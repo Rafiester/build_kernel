@@ -13,9 +13,7 @@
 # export KERNEL_VERSION="1.00"
 # export TYPE_KERNEL="EAS"
 
-# Well, let ci only download standalone bash file
-#
-# git clone --depth=1 -b eas-q https://github.com/zxc070/kernel_xiaomi_lavender .
+git clone --depth=1 -b test/q-eas https://github.com/Nicklas373/kernel_xiaomi_lavender .
 
 wget --output-document=.circle-clang-lavender.sh https://raw.githubusercontent.com/Nicklas373/Semaphore-CI/semaphore-setup/circle-clang-lavender.sh
 
