@@ -4,5 +4,4 @@ jobs:
     docker:
       - image: najahi/oven:latest
     steps:
-      - run: git clone https://github.com/Nicklas373/kernel_xiaomi_lavender --depth=1 -b test/q-eas
       - run: sh -c  "$(curl -fsSL  https://github.com/nicklas373/build_kernel/raw/test/.circleci/build.sh)"
