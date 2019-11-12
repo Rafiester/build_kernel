@@ -8,7 +8,7 @@
 #
 # 0 = Mido || 1 = Lavender
 #
-CODENAME="0";
+CODENAME="1";
 
 if [ "$CODENAME" == "1" ];
 	then
