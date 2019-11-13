@@ -10,6 +10,6 @@
 
 # Clone compiler script & execute it
 wget --output-document=.circle-clang.sh https://raw.githubusercontent.com/Nicklas373/Semaphore-CI/semaphore-setup/circle-clang.sh
-chmod +x .circle-clang.sh
-bash ./.circle-clang.sh
+chmod +x .circle-unified.sh
+bash ./.circle-unified.sh
 
