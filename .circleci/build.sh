@@ -9,7 +9,7 @@
 git clone --depth=1 -b dev/kasumi-eas  https://github.com/Nicklas373/kernel_xiaomi_lavender .
 
 # Clone compiler script & execute it
-# wget --output-document=.circle-unified.sh https://raw.githubusercontent.com/Nicklas373/Semaphore-CI/semaphore-setup/circle-unified.sh
-# chmod +x .circle-unified.sh
-# bash ./.circle-unified.sh
+wget --output-document=.circle-unified.sh https://raw.githubusercontent.com/Nicklas373/Semaphore-CI/semaphore-setup/circle-unified.sh
+chmod +x .circle-unified.sh
+bash ./.circle-unified.sh
 
