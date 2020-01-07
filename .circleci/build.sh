@@ -6,7 +6,7 @@
 
 # Cloning Kernel Repository
 # Only enable this if want to compile lavender
-# git clone --depth=1 -b dev/kasumi  https://github.com/Nicklas373/kernel_xiaomi_lavender .
+git clone --depth=1 -b dev/ion  https://github.com/Nicklas373/kernel_xiaomi_lavender .
 
 # Clone compiler script & execute it
 wget --output-document=.ci.sh https://raw.githubusercontent.com/Nicklas373/CI/CI/ci.sh
