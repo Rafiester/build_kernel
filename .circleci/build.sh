@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Copyright (C) 2019 @alanndz (Telegram and Github)
-# Copyright (C) 2019 HANA-CI Build Project (@nicklas373)
+# Copyright (C) 2020 HANA-CI Build Project (@nicklas373)
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 # Cloning Kernel Repository
