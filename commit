@@ -1,0 +1,5 @@
+#!/env/bin/bash
+
+git add .
+git commit -m "ci: unified: compile"
+git push origin test
