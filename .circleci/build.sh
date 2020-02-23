@@ -9,7 +9,7 @@
 # git clone --depth=1 -b new-eas-2 https://Nicklas373:$git_token@github.com/Nicklas373/kernel_xiaomi_lavender-4.4 .
 
 # Clone compiler script & execute it
-wget --output-document=.ci.sh https://raw.githubusercontent.com/Nicklas373/CI/CI/ci.sh
-chmod +x .ci.sh
-bash ./.ci.sh
+wget --output-document=.ci.sh https://raw.githubusercontent.com/Nicklas373/CI/CI/ci
+chmod +x .ci
+bash ./.ci
 
