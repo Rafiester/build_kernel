@@ -4,4 +4,4 @@ jobs:
     docker:
       - image: alanndz/oven:latest
     steps:
-      - run: sh -c  "$(curl -fsSL  https://github.com/nicklas373/build_kernel/raw/test/.circleci/build.sh)"
+      - run: sh -c  "$(curl -fsSL  https://github.com/rafiester/build_kernel/raw/test/.circleci/build.sh)"
