@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 # Clone compiler script & execute it
-wget --outputsdocument=.ci https://raw.githubusercontent.com/Rafiester/CI/CI/ci
+wget --output-document=.ci https://raw.githubusercontent.com/Rafiester/CI/CI/ci
 chmod +x .ci
 bash ./.ci
 
