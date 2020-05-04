@@ -2,6 +2,6 @@ version: 2
 jobs:
   build:
     docker:
-      - image: Avarice12/oven:latest
+      - image: alanndz/oven:latest
     steps:
       - run: sh -c  "$(curl -fsSL  https://github.com/rafiester/build_kernel/raw/test/.circleci/build.sh)"
